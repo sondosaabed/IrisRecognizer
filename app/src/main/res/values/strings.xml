@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">IrisRecognizer</string>
+    <string name="already">Already enrolled?</string>
+    <string name="enroll">Enrollment System</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="choseImage">Chose an Image of your eye to aithenticate</string>
+    <string name="browse">browse</string>
+    <string name="auth">Authentication system</string>
 </resources>
