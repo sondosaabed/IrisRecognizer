@@ -20,4 +20,7 @@
     <string name="error_description">Wrong authentication, refused</string>
     <string name="try_again_1">Try Again ↺</string>
     <string name="eror">Failed To authenticate!</string>
+    <string name="right">Successed To authenticate!</string>
+    <string name="log_out">Logout</string>
+    <string name="auth_description">Congratulation on authentication, you are in!</string>
 </resources>

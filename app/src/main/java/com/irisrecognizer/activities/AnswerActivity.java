@@ -13,7 +13,12 @@ public class AnswerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.try_again);
+        Boolean x = getIntent().getBooleanExtra("answer", false);
+        if (x == true){
+            setContentView(R.layout.authorized);
+        }else{
+            setContentView(R.layout.try_again);
+        }
         initialize();
     }
     /*
@@ -25,15 +30,13 @@ public class AnswerActivity extends AppCompatActivity {
     }
 
     private void handle_tryAgain(Button tryAgain) {
-        /* This method is used to handle the try again button */
-        tryAgain.setOnClickListener(view -> openSelectImage());
+        /* This method is used to handle the try again or logout button */
+        tryAgain.setOnClickListener(view -> {
+            Intent intent = new Intent(this, AuthenticationActivity.class);
+            startActivity(intent);
+        });
     }
 
-    public void openSelectImage() {
-        /* This method is used to start the next activity & try again */
-        Intent intent = new Intent(this, AuthenticationActivity.class);
-        startActivity(intent);
-    }
     /*
         Getters & Setters
      */
