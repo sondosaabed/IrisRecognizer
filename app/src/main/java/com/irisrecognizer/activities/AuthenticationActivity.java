@@ -37,9 +37,10 @@ public class AuthenticationActivity extends AppCompatActivity {
     private void handle_camera(Button camera) {
         /* This method is used to handle the camera button */
         camera.setOnClickListener(view -> {
-
-                }
-        );
+            Intent intent = new Intent(this, AnswerActivity.class);
+            intent.putExtra("answer", true);
+            startActivity(intent);
+        });
     }
 
     /*

@@ -23,5 +23,6 @@
         </activity>
         <activity android:name=".activities.AuthenticationActivity" android:exported="false"></activity>
         <activity android:name=".activities.EnrollmentActivity" android:exported="false"></activity>
+        <activity android:name=".activities.AnswerActivity" android:exported="false"></activity>
     </application>
 </manifest>

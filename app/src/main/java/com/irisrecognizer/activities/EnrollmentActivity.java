@@ -33,7 +33,9 @@ public class EnrollmentActivity extends AppCompatActivity {
 
     private void handle_Gallery(Button gallery) {
         gallery.setOnClickListener(e->{
-
+            Intent intent = new Intent(this, AnswerActivity.class);
+            intent.putExtra("answer", false);
+            startActivity(intent);
         });
     }
 
