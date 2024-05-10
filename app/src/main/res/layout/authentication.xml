@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="375dp"
-        android:layout_height="342dp"
+        android:layout_width="455dp"
+        android:layout_height="414dp"
         android:paddingBottom="75dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +32,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.599" />
+        app:layout_constraintVertical_bias="0.524" />
 
     <TextView
         android:id="@+id/textView3"
@@ -45,9 +45,25 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.477" />
+        app:layout_constraintVertical_bias="0.445" />
+
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="255dp"
+        android:layout_height="58dp"
+        android:fontFamily="@font/mezra"
+        android:gravity="center"
+        android:text="@string/by_camera"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.722" />
 
     <Button
         android:id="@+id/camera"
@@ -55,8 +71,8 @@
         android:layout_height="66dp"
         android:fontFamily="@font/mezra"
         android:gravity="center"
-        android:text="@string/by_camera"
-        android:textColor="@color/black"
+        android:text="@string/enroll_instead"
+        android:textColor="@color/white"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

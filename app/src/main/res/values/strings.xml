@@ -15,4 +15,6 @@
     <string name="select_image">Select Your Iris Image</string>
     <string name="by_gallary">Gallery  🖼</string>
     <string name="by_camera">Camera  📸</string>
+    <string name="enroll_instead">Enroll instead?</string>
+    <string name="auth_instead">Authenticate instead?</string>
 </resources>
