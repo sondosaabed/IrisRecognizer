@@ -31,17 +31,19 @@ An android app was developed that provides the following functionalities:
     <table>
         <tr>
             <th>Getting Started</th>
-            <th>Enrollemnt</th>
-            <th>Authenticate</th>
             <th>Welcome Back</th>
-            <th>Answer Screen</th>
+            <th>Authentication</th>
+            <th>Enrollment</th>
+            <th>Answer 1 Screen</th>
+            <th>Answer 2 Screen</th>
         </tr>
         <tr>
-            <td><img src="" alt="Getting Started"></td>
-            <td><img src="" alt="Enrollment"></td>
-            <td><img src="" alt="Authentication"></td>
-            <td><img src="" alt="Welcome Back"></td>
-            <td><img src="" alt="Home option"></td>
+            <td><img src="https://github.com/sondosaabed/Deep-Learning-for-Text/assets/65151701/024181f1-7a0f-40f7-ba5d-b63ba90757a4" alt="Getting Started" width="500"></td>
+            <td><img src="https://github.com/sondosaabed/Deep-Learning-for-Text/assets/65151701/b45dce95-257a-42e7-a885-7fdf85de2405" alt="Welcome Back" width="500"></td>
+            <td><img src="https://github.com/sondosaabed/Deep-Learning-for-Text/assets/65151701/55fa7079-5f32-461a-b8b4-707dc0244b5d" alt="Authentication" width="500"></td>
+            <td><img src="https://github.com/sondosaabed/Deep-Learning-for-Text/assets/65151701/f2b46d84-4eb5-44e8-9caa-a1cdb63dcf30" alt="Enrollment" width="500"></td>
+            <td><img src="https://github.com/sondosaabed/Deep-Learning-for-Text/assets/65151701/1a360593-1ced-48a0-b5bb-24d59aa3fc1b" alt="Answer 1" width="500"></td>
+            <td><img src="https://github.com/sondosaabed/Deep-Learning-for-Text/assets/65151701/7c7bf3f0-d8e0-4369-b207-a094c3c1f690" alt="Answer 2" width="500"></td>
         </tr>
     </table>
 </div>
