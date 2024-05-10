@@ -11,4 +11,8 @@
     <string name="back">Authenticate</string>
     <string name="welcome">Welcome to IrisRecognizer!</string>
     <string name="start">Enroll</string>
+    <string name="better_recognition">For a better authentication, go for high-quality, well-lit images</string>
+    <string name="select_image">Select Your Iris Image</string>
+    <string name="by_gallary">Gallery  🖼</string>
+    <string name="by_camera">Camera  📸</string>
 </resources>

@@ -41,9 +41,6 @@ public class AuthenticationActivity extends AppCompatActivity {
 //        setLanguage(findViewById(R.id.languageBtn));
 
         handle_start(getStart());
-        handle_change(getLanguage());
-
-        Preferences.setLanguageFromPreferences(this);// Set the language based on preferences
     }
 
     private void handle_start(Button start) {
@@ -55,11 +52,6 @@ public class AuthenticationActivity extends AppCompatActivity {
         /* This method is used to start the next activity */
 //        Intent intent = new Intent(this, SelectImage.class);
 //        startActivity(intent);
-    }
-
-    private void handle_change(Button language) {
-        /* This method is used to switch the UI langugae */
-        language.setOnClickListener(view -> Preferences.change_language(this));
     }
 
     /*
