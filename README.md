@@ -1,6 +1,8 @@
 # IrisRecognizer
 This is a simple mobile application used to show the functionality of an exported deep learning model. It's main functionality is to let users do the enrollment part and let them also do the authentication part.
 
+> To see the model infernced in the code, refer to this repository: https://github.com/sondosaabed/Iris-of-eyes-recognition/tree/main
+
 ## Features:
 An android app was developed that provides the following functionalities:
 
